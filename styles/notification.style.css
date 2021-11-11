@@ -1,0 +1,90 @@
+/*
+
+Copyright 2021 Alex K. Herrera
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+*/
+
+/* Colored paragraph box for warnings, information, or more. */
+
+/* Base of notification with default blue color */
+.notification {
+  float: left;
+  margin: 20px;
+  padding: 16px;
+  width: 30%;
+  height: fit-content;
+
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px rgb(212, 212, 212);
+  background-color: rgb(189, 225, 255);
+}
+
+/* Title of notification */
+.notification > h2 {
+  margin-bottom: 16px;
+  color: rgb(12, 45, 71);
+}
+
+
+
+
+/* Alert bubble styles here */
+.alertBubble {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 40vh;
+} 
+
+.alertBubble > h2, p{
+  width: fit-content;
+  margin: 0 auto;
+}
+
+
+/* Both bubbles are hidden by default.
+    JQuery shows them whichever is
+    triggered by the results */
+
+
+/* Bad alert bubble colors */
+.alertBubble.bad {
+  display: none;
+  background-color: #f7d6d2;
+}
+
+.alertBubble.bad > h2 {
+  color: #7a3232;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.alertBubble.bad > p {
+  margin-top: 1rem;
+}
+
+
+/* Good alert bubble colors */
+.alertBubble.good {
+  display: none;
+  background-color: #d3f7d2;
+}
+
+.alertBubble.good > h2 {
+  color: #327a37;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.alertBubble.good > p {
+  margin-top: 1rem;
+}
