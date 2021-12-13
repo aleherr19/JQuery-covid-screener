@@ -14,5 +14,4 @@ TL;DR A Covid-19 screener built using Javascript & JQuery. Evaluation portion ca
 ## Screenshots
 
 
-![Large picture of the project](http://104.238.165.204/github_ups/covid-screener-large.png)
-![Small picture of the project](http://104.238.165.204/github_ups/covid-screener-small.png)
+![Large picture of the project](https://www.alexherrera.dev/github-hosted-images/covid-screener-1.png)
