@@ -1,4 +1,4 @@
-# JQuery-covid-screener
+# Javascript screener for COVID-19
 
 Evaluate a person or yourself with this easy covid-19 screener. Take it a step higher and implement your own web-wooks to send the survey data anywhere else. 
 This Covid-19 screening web app is built on Javascript & JQuery. It won't need a dedicated server to work. You can run it directly from a web browser.
@@ -12,6 +12,5 @@ It's as accurate as it should be to the best of my knowledge, but you could want
 TL;DR A Covid-19 screener built using Javascript & JQuery. Evaluation portion can/should be modified to your liking & flexibility.
 
 ## Screenshots
-
 
 ![Large picture of the project](https://www.alexherrera.dev/github-hosted-images/covid-screener-1.png)
