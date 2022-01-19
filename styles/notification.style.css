@@ -23,7 +23,7 @@ limitations under the License.
   padding-top: 40vh;
 } 
 
-.alertBubble > h2, p{
+.alertBubble > h2 p{
   width: fit-content;
   margin: 0 auto;
 }
