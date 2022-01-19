@@ -16,30 +16,6 @@ limitations under the License.
 
 */
 
-/* Colored paragraph box for warnings, information, or more. */
-
-/* Base of notification with default blue color */
-.notification {
-  float: left;
-  margin: 20px;
-  padding: 16px;
-  width: 30%;
-  height: fit-content;
-
-  border-radius: 10px;
-  box-shadow: 0px 5px 5px rgb(212, 212, 212);
-  background-color: rgb(189, 225, 255);
-}
-
-/* Title of notification */
-.notification > h2 {
-  margin-bottom: 16px;
-  color: rgb(12, 45, 71);
-}
-
-
-
-
 /* Alert bubble styles here */
 .alertBubble {
   width: 100vw;
