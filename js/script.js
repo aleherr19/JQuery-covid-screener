@@ -131,14 +131,19 @@ function evaluateQuestions() {
       resultset[8]==true ||
       resultset[9]==true) {
 
+      // At Risk!
+      $("header > h2").text("At Risk.");
+      $("header > p").text("Based on the survey, you don't sound well. We're not telling you what to do, but you should stay home.");
+      $("header").css("background-color", "#ffd9cc");
 
-      // Show the good bubble block element
-      $(".alertBubble.bad").show();
 
     } else {
 
-      // Show the bad bubble block element
-      $(".alertBubble.good").show();
+      // Good to go
+      $("header > h2").text("You're safe.");
+      $("header > p").text("Based on the survey, you sound well. We're not telling you what to do, but you're good to go if you need to.");
+      $("header").css("background-color", "#dcffcc");
+
   }
 
 }
